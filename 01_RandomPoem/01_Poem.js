@@ -19,7 +19,7 @@ var RandomPoem;
     ];
     for (let index = 5; index >= 1; index--) {
         let satz = getVerse(subjekt, prädikat, objekt);
-        console.log(getVerse);
+        console.log(satz);
     }
 })(RandomPoem || (RandomPoem = {}));
 //Funktion
