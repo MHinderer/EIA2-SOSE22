@@ -1,0 +1,27 @@
+.div01 {
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: cornflowerblue;
+  align-items: center;
+}
+
+.div02 {
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  margin-left: 800px;
+  margin-top: 50px;
+  background-color: cornflowerblue;
+  align-items: center;
+}
+
+.span01 {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: deeppink;
+}
