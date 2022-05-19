@@ -46,6 +46,115 @@
         float: right;
       }
 
+      /* abweichende CSS-Regeln für Bildschirme (iPad Pro hochkant), die den vorher notierten CSS-Code überschreiben */
+      @media screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: portrait) {
+        .content {
+          width: 90%;
+          float: left;
+          margin-left: 3.5em;
+        }
+
+        .sidebar {
+          width: 90%;
+          float: left;
+          margin-left: 3.5em;
+        }
+
+        .header {
+          width: 90%;
+          float: left;
+          margin: 3.5em;
+          margin-bottom: 2em;
+          background: rgb(255, 173, 173);
+        }
+
+        .navi a {
+          background: rgb(255, 173, 173);
+        }
+      }
+
+      /* abweichende CSS-Regeln für Bildschirme (iPad Pro querkant), die den vorher notierten CSS-Code überschreiben */
+      @media screen and (min-width: 1365px) and (orientation: landscape) {
+        .content {
+          width: 44%;
+          float: left;
+          margin-left: 4em;
+        }
+
+        .content h1 {
+          font-size: 3em;
+        }
+
+        .sidebar {
+          width: 44%;
+          float: right;
+          margin-right: 4em;
+        }
+
+        .sidebar h3 {
+          font-size: 3em;
+        }
+
+        .header {
+          width: 90%;
+          float: left;
+          margin: 4em;
+          margin-bottom: 2em;
+          background: rgb(173, 255, 207);
+        }
+
+        .navi a {
+          background: rgb(173, 255, 207);
+        }
+      }
+
+      /* abweichende CSS-Regeln für Bildschirme (iPhone 12 Pro), die den vorher notierten CSS-Code überschreiben */
+      @media screen and (min-width: 374px) and (max-width: 1023px) and (orientation: portrait) {
+        .content {
+          width: 90%;
+          float: left;
+          margin-left: 1.2em;
+        }
+
+        .sidebar {
+          width: 90%;
+          float: left;
+          margin-left: 1.2em;
+        }
+
+        .header {
+          width: 90%;
+          float: left;
+          margin: 1.2em;
+          margin-bottom: 2em;
+          background: white;
+        }
+
+        .logo {
+          margin-left: 20%;
+        }
+
+        .navi {
+          float: left;
+        }
+
+        .navi ul {
+          list-style: none;
+          padding: 0;
+          margin-left: 1.2em;
+        }
+
+        .navi li {
+          float: left;
+        }
+
+        .navi a {
+          display: inline-block;
+          background: rgb(173, 181, 255);
+          padding: 0.5em;
+        }
+      }
+
       /* abweichende CSS-Regeln für Drucker, die den vorher notierten CSS-Code überschreiben */
       @media print {
         .logo {
