@@ -47,7 +47,8 @@
       }
 
       /* abweichende CSS-Regeln für Bildschirme (iPad Pro hochkant), die den vorher notierten CSS-Code überschreiben */
-      @media screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: portrait) {
+      @media screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: portrait),
+        screen and (min-width: 833px) and (max-width: 1023px) {
         .content {
           width: 90%;
           float: left;
@@ -156,7 +157,7 @@
       }
 
       /* abweichende CSS-Regeln für Drucker, die den vorher notierten CSS-Code überschreiben */
-      @media print {
+      /* @media print {
         .logo {
           float: right;
         }
@@ -167,7 +168,7 @@
         .content {
           width: 100%;
         }
-      }
+      } */
     </style>
   </head>
 
