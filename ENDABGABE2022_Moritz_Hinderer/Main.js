@@ -214,7 +214,7 @@ var EndabgabeSoSe22;
     function pesticideChosen(_event) {
         EndabgabeSoSe22.pesticideBoolean = true;
     }
-    //Klick Listener für Wasser und Dünger
+    //Klick Listener für Wasser, Dünger und Pestizide
     EndabgabeSoSe22.wateringCanImage.addEventListener("click", waterChosen);
     EndabgabeSoSe22.fertilizerImage.addEventListener("click", fertilizerChosen);
     EndabgabeSoSe22.pesticideImage.addEventListener("click", pesticideChosen);
